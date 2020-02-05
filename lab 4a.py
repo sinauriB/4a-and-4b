@@ -38,6 +38,7 @@ with open("C:/Users/008010554/Desktop/lab4a.txt") as txtfile:
 
      for rec in file:
 
+    
           records +=1
           
           first_name.append(rec[0])
@@ -65,7 +66,7 @@ for i in range(0,records):
 
         elif house_of_alligance[i] == "Night's Watch":
 
-             motto == " And now my watch begins"
+             motto == "And now my watch begins"
 
       elif house_of_alligance == "House of Tully":
 
@@ -73,15 +74,22 @@ for i in range(0,records):
 
          elif house_of_alligance == "House of Lannister":
 
-             motto = "Hear me roar"
+             motto = "Hear me roar!"
 
           elif house of alligance == "House of Baratheon":
 
-             motto = "ours is the fury"
+             motto = "Ours is the fury"
 
         elif house_of_alligance == "House Taragaryen":
 
-            motto =  "fire & blood"
-
-        
-         print("{0:10}, {1:10}, {2:10}, {3:19}, {4:10}".format(first_name[i],last_name[i],age[i],nickname[i],house_of_alligance[i], mott_list[i]))
+            motto =  "Fire & Blood"
+          
+          print("{0:10}, {1:10}, {2:10}, {3:19}, {4:10}".format(first_name[i],last_name[i],age[i],nickname[i],
+                                                                house_of_alligance[i], mott_list[i]))
+          
+          
+          
+          
+          
+          
+          
