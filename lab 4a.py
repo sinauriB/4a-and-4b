@@ -1,28 +1,40 @@
 
-import csv
+# Sinauri Tapia Lab 4A
 
 
-#VARAIBLE FOR TOTAL RECORDS IN A CSV FILE 
+
+
+# starting doc 
+# for 4A the program has to  process the  6 fields of data of  the  lab5.txt  csv file and store each  field into its own list 
+# and re-process  the list (using for loop() )  to print  each rec(row)  fully with its house motto
+# THEN AGAIN re-process the list (using ANOTHER forloop() ) to print avg age 
+
+
+
+
+#VARAIBLE dictionary
+# records - is the total  number of rows processed in the csv file
+# first_name is the 0(first)row in  csv file it stores the name of the user
+# last_name is the 1(sec) row in the csv file  it stores last name of the user
+# age is the 2(third) row in the csv file stores age of the user
+# nickname is 3(fourth) row in the csv file stores nickname of user
+# house_of_alligance is the 4 (fifth) row in csv file stores the users house alligance
+# mott_list is the 5 (sixth) row in the csv file stores the house of alligance motto
+
+
+
+
+
+
+
+
+
+
+import cvs
+
+
 
 records = 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#documentation
  
 #LIST IN THE CSV  FILE 
 first_name = []
