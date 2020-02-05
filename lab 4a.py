@@ -5,9 +5,11 @@
 
 
 # starting doc 
+
 # for 4A the program has to  process the  6 fields of data of  the  lab5.txt  csv file and store each  field into its own list 
 # and re-process  the list (using for loop() )  to print  each rec(row)  fully with its house motto
-# THEN AGAIN re-process the list (using ANOTHER forloop() ) to print avg age 
+# THEN AGAIN re-process the list (using ANOTHER forloop() ) to print avg age and 
+#AND print the tallies  for each house alligance AND total number of people in the list 
 
 
 
@@ -26,7 +28,7 @@
 
 
 
-
+#base program code --------------
 
 
 
@@ -98,8 +100,13 @@ for i in range(0,records):
           
           print("{0:10}, {1:10}, {2:10}, {3:19}, {4:10}".format(first_name[i],last_name[i],age[i],nickname[i],
                                                                 house_of_alligance[i], mott_list[i]))
-          
-          
+    
+
+For i in range(2,age):
+       
+      If age[i] == 
+
+       
           
           
           
