@@ -16,15 +16,16 @@
 
 #VARAIBLE dictionary
 # records - is the total  number of rows processed in the csv file
-# first_name is the 0(first)row in  csv file it stores the name of the user
-# last_name is the 1(sec) row in the csv file  it stores last name of the user
-# age is the 2(third) row in the csv file stores age of the user
-# nickname is 3(fourth) row in the csv file stores nickname of user
+# first_name is the 0(first)field in  csv file it stores the name of the user
+# last_name is the 1(sec) field in the csv file  it stores last name of the user
+# age is the 2(third) field in the csv file stores age of the user
+# nickname is 3(fourth) field  in the csv file stores nickname of user
 # house_of_alligance is the 4 (fifth) row in csv file stores the users house alligance
-# mott_list is the 5 (sixth) row in the csv file stores the house of alligance motto
-
-
-
+# mott_list is the 5 (sixth) field in the csv file stores the house of alligance motto
+# ageF - is the total num of ages in the csv file and its used alongside the AVg()
+# Average(): is used to calculate the avg age of user in the field 2.
+# houseA - the total num of house alligance fields in the csv file
+#  totalpeeps - the  total num of First and LAst name fields in csv file
 
 
 
@@ -37,6 +38,7 @@ import cvs
 
 
 records = 0
+
  
 #LIST IN THE CSV  FILE 
 first_name = []
@@ -101,14 +103,55 @@ for i in range(0,records):
           print("{0:10}, {1:10}, {2:10}, {3:19}, {4:10}".format(first_name[i],last_name[i],age[i],nickname[i],
                                                                 house_of_alligance[i], mott_list[i]))
     
+    
+    #  get avg age of user in age[] 
+    
+    
+   for i in range(ageF):
+    
+    return sum(age) / len(age)
+     
+    print age[i] 
 
-For i in range(2,age):
-       
-      If age[i] == 
-
-       
+  
+     # print total LAST AND FIRST name in field  for totalpeeps using func
+    
+   for i in range(len(first_name, last_name)):
+     print first_name [i]   +  print last_name[i]
+     
+     
+     # print total house alligance
+     
+     
+     for i in range(len(house_of_alligance)):
+      
+      print house_of_alligance[i]
+      
+      
+      
+      
+     
+     
+     
+     
+     
+   
+     
+     
+     
+  
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
           
           
-          
+    
           
           
